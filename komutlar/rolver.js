@@ -5,7 +5,7 @@ var prefix = ayarlar.prefix;
 
 exports.run = async (bot, message, args) => {
   if (!message.member.hasPermission("MANAGE_ROLES"))
-    //Buzz • Code♥World
+    //uFUKO • Code♥World
     return message.channel.send(
       new Discord.RichEmbed()
         .setDescription(
